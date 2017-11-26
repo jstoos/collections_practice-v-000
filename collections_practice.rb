@@ -65,5 +65,5 @@ def add_s(array)
 
   array[1].chop
   array
-  
+
 end

@@ -62,6 +62,7 @@ def add_s(array)
   array.collect do |word|
     word << "s"
   end
-    array[1].chop
-  end
+
+  array[1].chop
+  
 end

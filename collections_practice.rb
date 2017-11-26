@@ -60,6 +60,7 @@ end
 
 def add_s(array)
   array.collect do |word|
-    array.[0, 2..5]word << "s"
+    word << "s"
+    array[1].pop
   end
 end

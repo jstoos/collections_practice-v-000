@@ -63,6 +63,6 @@ def add_s(array)
     if index = 1
       word = word
     else word << "s"
+    end
   end
-
 end
